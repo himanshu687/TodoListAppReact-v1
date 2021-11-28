@@ -8,7 +8,7 @@ export const AddTodo = ({ addTodo }) => {
     e.preventDefault();
 
     if (!title || !desc) {
-      alert("title or desc cannot be empty.");
+      // alert("title or desc cannot be empty.");
       return;
     }
 
